@@ -161,6 +161,10 @@ class MRHMapPictures
 	{
 		picturePath = PAAPATH(zargabad.paa);
 	};
+	class pja314
+	{
+		picturePath = PAAPATH(pja314.paa);
+	};
 };
 /*
 x"Altis",
@@ -201,5 +205,6 @@ x"takistan"
 x"Mountains_ACR" --> takistan mountains
 x"sara_dbe1" --> united sahrani
 x"utes"
-"zargabad"
+x"zargabad"
+"pja314"
 */
