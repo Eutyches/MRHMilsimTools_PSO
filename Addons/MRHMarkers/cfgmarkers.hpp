@@ -433,3 +433,36 @@ size = 32;
 shadow = 1;
 scope = 2;
 };
+
+class PSO_Flag
+{
+name = "PSO_Flag";
+markerClass = "MRHMarkers";
+icon = "\MRHMarkers\paa\marker_psoflag.paa";
+color[] = {1, 1, 1, 1};
+size = 32;
+shadow = 1;
+scope = 2;
+};
+
+class PSO_Insignia
+{
+name = "PSO_Insignia";
+markerClass = "MRHMarkers";
+icon = "\MRHMarkers\paa\marker_psoinsignia.paa";
+color[] = {1, 1, 1, 1};
+size = 32;
+shadow = 1;
+scope = 2;
+};
+
+class PSO_Snack
+{
+name = "PSO_Snack";
+markerClass = "MRHMarkers";
+icon = "\MRHMarkers\paa\marker_snackface.paa";
+color[] = {1, 1, 1, 1};
+size = 32;
+shadow = 1;
+scope = 2;
+};
