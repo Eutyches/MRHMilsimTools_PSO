@@ -440,7 +440,7 @@ name = "PSO_Flag";
 markerClass = "MRHMarkers";
 icon = "\MRHMarkers\paa\marker_psoflag.paa";
 color[] = {1, 1, 1, 1};
-size = 32;
+size = 64;
 shadow = 1;
 scope = 2;
 };
@@ -451,7 +451,7 @@ name = "PSO_Insignia";
 markerClass = "MRHMarkers";
 icon = "\MRHMarkers\paa\marker_psoinsignia.paa";
 color[] = {1, 1, 1, 1};
-size = 32;
+size = 64;
 shadow = 1;
 scope = 2;
 };
@@ -461,6 +461,72 @@ class PSO_Snack
 name = "PSO_Snack";
 markerClass = "MRHMarkers";
 icon = "\MRHMarkers\paa\marker_snackface.paa";
+color[] = {1, 1, 1, 1};
+size = 32;
+shadow = 1;
+scope = 2;
+};
+
+class PSO_Archer
+{
+name = "PSO_Archer";
+markerClass = "MRHMarkers";
+icon = "\MRHMarkers\paa\marker_archer.paa";
+color[] = {1, 1, 1, 1};
+size = 32;
+shadow = 1;
+scope = 2;
+};
+
+class PSO_Bandit
+{
+name = "PSO_Bandit";
+markerClass = "MRHMarkers";
+icon = "\MRHMarkers\paa\marker_bandit.paa";
+color[] = {1, 1, 1, 1};
+size = 32;
+shadow = 1;
+scope = 2;
+};
+
+class PSO_Dagger
+{
+name = "PSO_Dagger";
+markerClass = "MRHMarkers";
+icon = "\MRHMarkers\paa\marker_dagger.paa";
+color[] = {1, 1, 1, 1};
+size = 32;
+shadow = 1;
+scope = 2;
+};
+
+class PSO_Excalibur
+{
+name = "PSO_Excalibur";
+markerClass = "MRHMarkers";
+icon = "\MRHMarkers\paa\marker_excalibur.paa";
+color[] = {1, 1, 1, 1};
+size = 32;
+shadow = 1;
+scope = 2;
+};
+
+class PSO_Bandit
+{
+name = "PSO_Overlord";
+markerClass = "MRHMarkers";
+icon = "\MRHMarkers\paa\marker_overlord.paa";
+color[] = {1, 1, 1, 1};
+size = 32;
+shadow = 1;
+scope = 2;
+};
+
+class PSO_Witchcraft
+{
+name = "PSO_Witchcraft";
+markerClass = "MRHMarkers";
+icon = "\MRHMarkers\paa\marker_witchcraft.paa";
 color[] = {1, 1, 1, 1};
 size = 32;
 shadow = 1;
