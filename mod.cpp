@@ -1,13 +1,13 @@
 name = "MRHMilSimTools: PSO Edition";
 picture = "milsimtoolsIco.paa";
-actionName = "MRHMilSimTools";
+actionName = "MRHMilSimTools_PSO";
 action = "https://mrhmilsimtools-arma3-mod.wikia.com/wiki/MRHMilsimTools_ARMA3_Mod_Wiki";
 logo = "milsimtoolsIco.paa";
 logoOver = "milsimtoolsIco.paa";
 tooltip = "MRHMilSimTools";
-tooltipOwned = "MRHMilSimTools";
+tooltipOwned = "MRHMilSimTools_PSO";
 overview = "Visit https://mrhmilsimtools-arma3-mod.wikia.com/wiki/MRHMilsimTools_ARMA3_Mod_Wiki";
-author = "Mr H. (Main) + Eutyches (PSO Tweaks)";
+author = "Mr. H (Main) + Eutyches/Corey (PSO Tweaks)";
 overviewPicture = "milsimtoolsIco.paa";
 overviewText = "Visit: https://mrhmilsimtools-arma3-mod.wikia.com/wiki/MRHMilsimTools_ARMA3_Mod_Wiki";
-overviewFootnote = "MRHMilSimTools";
+overviewFootnote = "MRHMilSimTools (Official Documentation)";
