@@ -511,7 +511,7 @@ shadow = 1;
 scope = 2;
 };
 
-class PSO_Bandit
+class PSO_Overlord
 {
 name = "PSO_Overlord";
 markerClass = "MRHMarkers";
