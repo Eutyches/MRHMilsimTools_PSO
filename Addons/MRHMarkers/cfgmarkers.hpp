@@ -462,7 +462,7 @@ name = "PSO_Snack";
 markerClass = "MRHMarkers";
 icon = "\MRHMarkers\paa\marker_snackface.paa";
 color[] = {1, 1, 1, 1};
-size = 32;
+size = 64;
 shadow = 1;
 scope = 2;
 };
@@ -483,6 +483,17 @@ class PSO_Bandit
 name = "PSO_Bandit";
 markerClass = "MRHMarkers";
 icon = "\MRHMarkers\paa\marker_bandit.paa";
+color[] = {1, 1, 1, 1};
+size = 32;
+shadow = 1;
+scope = 2;
+};
+
+class PSO_Condor
+{
+name = "PSO_Condor";
+markerClass = "MRHMarkers";
+icon = "\MRHMarkers\paa\marker_condor.paa";
 color[] = {1, 1, 1, 1};
 size = 32;
 shadow = 1;
@@ -511,9 +522,20 @@ shadow = 1;
 scope = 2;
 };
 
-class PSO_Overlord
+class PSO_Flintlock
 {
-name = "PSO_Overlord";
+name = "PSO_Flintlock";
+markerClass = "MRHMarkers";
+icon = "\MRHMarkers\paa\marker_flintlock.paa";
+color[] = {1, 1, 1, 1};
+size = 32;
+shadow = 1;
+scope = 2;
+};
+
+class PSO_OverLord
+{
+name = "PSO_OverLord";
 markerClass = "MRHMarkers";
 icon = "\MRHMarkers\paa\marker_overlord.paa";
 color[] = {1, 1, 1, 1};
