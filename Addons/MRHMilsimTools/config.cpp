@@ -1,6 +1,6 @@
 class CfgPatches {
 	class MRHMilsimTools{
-		units[] = {}; //
+		units[] = {"PSO_Flag"}; //
 		weapons[] = {}; //
 		requiredVersion = 0.1; //
 		requiredAddons[] = {"cba_main"};
@@ -84,6 +84,23 @@ class cfgNotifications
 #include"\MRHMilSimTools\cfghpp\cfgMRHcompositions.hpp"
 #include"\MRHMilSimTools\cfghpp\cfg3DEN.hpp"
 
+class CfgVehicles //added by Corey -- use class PSO_Flag as template to add additional flags
+{	
+	class Flagpole_F;
+	
+	class PSO_Flag: FlagPole_F 
+	{
+		scope = 2;
+		accuracy = 10000;
+		displayName = "PSO Flag";
+		nameSound = "flag";
+		class EventHandlers
+		{
+			init = "(_this select 0) setFlagTexture ""\MRHMilsimTools\paa\psoFlag.paa""";
+		};
+	};
+};
+
 class CfgUnitInsignia
 {
 	class MRH_MedicShoulderPatch
@@ -92,7 +109,7 @@ class CfgUnitInsignia
 		displayName = $STR_MRH_MISC_MedicPatchInsignia;
 		texture = "\MRHMilSimTools\paa\medicpatch.paa";
 	};
-	class PSO_UnitPatch_Flag
+	class PSO_UnitPatch_Flag //Use this as a template for new insignia (Corey)
 	{
 		author = "Corey";
 		displayName = "PSO Flag";
@@ -213,6 +230,7 @@ class CfgUnitInsignia
 		texture = "\MRHMilSimTools\paa\unitpatch_pso_war3.paa";
 	};
 };
+
 class Extended_Init_EventHandlers {
     class CAManBase {
         class MRH_MedicPatch_init {
